@@ -22,11 +22,6 @@ app.get('/info', function(req, res){
 	console.log('Zażądano strony Info');
 });
 
-app.get('/contact', function(req, res){
-	res.send('DevOps - strona kontakt!');
-	console.log('Zażądano strony Kontakt');
-});
-
 app.listen(3001, function(){
 	console.log('Aplikacja OK');
 }); 
